@@ -53,13 +53,14 @@ public class ArbolBinarioBusquedaTest {
 	@Test
 	public void testContiene() {
 
-		System.out.println("Abb1 contiene 20: " + abb1.contiene(20));
-		System.out.println("Abb2 contiene 20: " + abb2.contiene(20));
-		System.out.println("Abb3 contiene 20: " + abb3.contiene(20));
-		System.out.println("Abb4 contiene 10: " + abb4.contiene(10));
-		System.out.println("Abb5 contiene 50: " + abb5.contiene(50));
-		System.out.println("Abb6 contiene 22: " + abb6.contiene(22));
 
+		assertTrue(abb1.contiene(20));
+		assertTrue(abb2.contiene(20));
+		assertTrue(abb3.contiene(20));
+		assertTrue(abb4.contiene(10));
+		assertFalse(abb5.contiene(50));
+		assertTrue(abb6.contiene(22));
+		assertFalse(abb7.contiene(11));
 		//fail("Not yet implemented");
 	}
 
@@ -75,12 +76,14 @@ public class ArbolBinarioBusquedaTest {
 
 	@Test
 	public void testProfundidad() {
-		System.out.println("Abb1 profundidad: "+ abb1.profundidad());
-		System.out.println("Abb2 profundidad: "+ abb2.profundidad());
-		System.out.println("Abb3 profundidad: "+ abb3.profundidad());
-		System.out.println("Abb4 profundidad: "+ abb4.profundidad());
-		System.out.println("Abb5 profundidad: "+ abb5.profundidad());
-		System.out.println("Abb6 profundidad: "+ abb6.profundidad());
+
+		assertEquals(0,abb1.profundidad());
+		assertEquals(1,abb2.profundidad());
+		assertEquals(1,abb3.profundidad());
+		assertEquals(2,abb4.profundidad());
+		assertEquals(2,abb5.profundidad());
+		assertEquals(2,abb6.profundidad());
+		assertEquals(2,abb7.profundidad());
 
 		//fail("Not yet implemented");
 	}
@@ -88,17 +91,21 @@ public class ArbolBinarioBusquedaTest {
 	@Test
 	public void testCuentaNodosDeNivel() {
 
-		System.out.println("Abb1 nodos en nivel 1: "+ abb1.cuentaNodosDeNivel(1));
-		System.out.println("Abb2 nodos en nivel 2: "+ abb2.cuentaNodosDeNivel(2));
-		System.out.println("Abb3 nodos en nivel 2: "+ abb3.cuentaNodosDeNivel(2));
-		System.out.println("Abb4 nodos en nivel 3: "+ abb4.cuentaNodosDeNivel(3));
-		System.out.println("Abb5 nodos en nivel 2: "+ abb5.cuentaNodosDeNivel(2));
-		System.out.println("Abb6 nodos en nivel 3: "+ abb6.cuentaNodosDeNivel(3));
+
+		assertEquals(0,abb1.cuentaNodosDeNivel(1));
+		assertEquals(1,abb2.cuentaNodosDeNivel(1));
+		assertEquals(2,abb3.cuentaNodosDeNivel(1));
+		assertEquals(1,abb4.cuentaNodosDeNivel(1));
+		assertEquals(2,abb5.cuentaNodosDeNivel(1));
+		assertEquals(1,abb6.cuentaNodosDeNivel(2));
+		assertEquals(2,abb7.cuentaNodosDeNivel(2));
+
 		//fail("Not yet implemented");
 	}
 
 	@Test
 	public void testEsCompleto() {
+
 		System.out.println("Abb1 es completo: "+abb1.esCompleto());
 		System.out.println("Abb2 es completo: "+abb2.esCompleto());
 		System.out.println("Abb3 es completo: "+abb3.esCompleto());
@@ -107,17 +114,34 @@ public class ArbolBinarioBusquedaTest {
 		System.out.println("Abb6 es completo: "+abb6.esCompleto());
 		System.out.println("Abb7 es completo: "+abb7.esCompleto());
 
+		assertTrue(abb1.esCompleto());
+		assertTrue(abb2.esCompleto());
+		assertTrue(abb3.esCompleto());
+		assertFalse(abb4.esCompleto());
+		assertTrue(abb5.esCompleto());
+		assertFalse(abb6.esCompleto());
+		assertFalse(abb7.esCompleto());
+
 		//fail("Not yet implemented");
 	}
 
 	@Test
 	public void testEsLleno() {
-		System.out.println("Abb1 es lleno: "+abb1.esLleno());
+
+		assertTrue(abb1.esLleno());
+		assertFalse(abb2.esLleno());
+		assertTrue(abb3.esLleno());
+		assertFalse(abb4.esLleno());
+		assertFalse(abb5.esLleno());
+		assertFalse(abb6.esLleno());
+		assertFalse(abb7.esLleno());
+
+		/*System.out.println("Abb1 es lleno: "+abb1.esLleno());
 		System.out.println("Abb2 es lleno: "+abb2.esLleno());
 		System.out.println("Abb3 es lleno: "+abb3.esLleno());
 		System.out.println("Abb4 es lleno: "+abb4.esLleno());
 		System.out.println("Abb5 es lleno: "+abb5.esLleno());
-		System.out.println("Abb6 es lleno: "+abb6.esLleno());
+		System.out.println("Abb6 es lleno: "+abb6.esLleno());*/
 
 		//fail("Not yet implemented");
 	}
