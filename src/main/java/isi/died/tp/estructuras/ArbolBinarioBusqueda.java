@@ -90,32 +90,66 @@ public class ArbolBinarioBusqueda<E extends Comparable<E>> extends Arbol<E> {
 
 	@Override
 	public boolean contiene(E unValor) {
+		if(this.valor == unValor) return true;
+		if(this.izquierdo.contiene(unValor)) return true;
+		return this.derecho.contiene(unValor);
 		// TODO 1.a
-		return false;
+
 	}
 
 	@Override
 	public int profundidad() {
 		// TODO 1.b
-		return 0;
+		if(this.derecho.esVacio() && this.izquierdo.esVacio()) return 1;
+
+		int profIzq, profDcho;
+		profDcho=this.derecho.profundidad();
+		profIzq=this.izquierdo.profundidad();
+
+		if(profDcho<profIzq) return profIzq+1;
+		else return profDcho+1;
+
 	}
 
 	@Override
 	public int cuentaNodosDeNivel(int nivel) {
 		// TODO 1.c
-		return 0;
+		if(nivel==1) return 1;
+		return (this.izquierdo.cuentaNodosDeNivel(nivel-1)+this.derecho.cuentaNodosDeNivel(nivel-1));
+
 	}
 
 	@Override
 	public boolean esCompleto() {
 		// TODO 1.d
+		int profIzq, profDcho;
+		profDcho=this.derecho.profundidad();
+		profIzq=this.izquierdo.profundidad();
+		if(profDcho==0 && profIzq==0) return true;
+
+		if(profDcho == profIzq){
+			return (this.izquierdo.esLleno() && this.derecho.esCompleto());
+
+		}else if(profDcho==profIzq-1){
+			return(this.izquierdo.esCompleto() && (this.derecho.esLleno() || this.derecho.esVacio()));
+		}
+
 		return false;
 	}
 
 	@Override
 	public boolean esLleno() {
 		// TODO 1.e
-		return false;
+
+		//double cantNodosMaxima = Math.pow(2,this.profundidad()-1);
+		int profundidad = this.profundidad();
+
+		//int sumaNodos=0;
+		/*for(int i=0;i<=this.profundidad();i++){
+			sumaNodos+=this.cuentaNodosDeNivel(i);
+		}*/
+
+		return (Math.pow(2,this.profundidad()-1) == this.cuentaNodosDeNivel(profundidad));
 	}
 
 }
