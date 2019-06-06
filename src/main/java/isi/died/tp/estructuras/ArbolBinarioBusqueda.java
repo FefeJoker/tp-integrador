@@ -156,4 +156,25 @@ public class ArbolBinarioBusqueda<E extends Comparable<E>> extends Arbol<E> {
 		return (Math.pow(2,this.profundidad()) == this.cuentaNodosDeNivel(profundidad));
 	}
 
+	@Override
+	public List<E> rango(E inicio, E fin){
+		List<E> lista = new ArrayList<>();
+		if(this.valor.compareTo(fin) == 1) {
+			lista.addAll(this.izquierdo().rango(inicio, fin));
+			return lista;
+		}
+
+		if(this.valor.compareTo(inicio) == -1){
+			lista.addAll(this.derecho().rango(inicio, fin));
+			return lista;
+		}
+
+		if((this.valor.compareTo(inicio) > -1) && (this.valor.compareTo(fin) < 1))  lista.add(this.valor);
+
+		lista.addAll(this.izquierdo().rango(inicio, fin));
+		lista.addAll(this.derecho().rango(inicio, fin));
+
+		return lista;
+	}
+
 }

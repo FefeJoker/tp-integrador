@@ -79,6 +79,8 @@ public class ArbolVacio<E extends Comparable<E>> extends Arbol<E> {
 		return false;
 	}
 
-
-
+	@Override
+	public List<E> rango(E inicio, E fin) {
+		return null;
+	}
 }

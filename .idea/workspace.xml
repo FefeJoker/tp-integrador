@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2d4513-78ed-41c6-8f27-c7fb37d4952b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Unidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeLongitud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMedida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeSuperficie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeVolumen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,6 +25,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -22,17 +47,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+            <state relative-caret-position="1445">
+              <caret line="163" column="25" lean-forward="true" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
+              <folding>
+                <element signature="method#preOrden#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#inOrden#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#posOrden#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#equals#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#contiene#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#profundidad#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#esCompleto#0;class#ArbolBinarioBusqueda#0" />
+                <element signature="method#esLleno#0;class#ArbolBinarioBusqueda#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="255">
+              <caret line="15" column="78" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="15" selection-end-column="78" />
+              <folding>
+                <element signature="method#CompareTo#0;class#Insumo#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,17 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            <state relative-caret-position="476">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -58,8 +87,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="method#testContiene#0;class#ArbolBinarioBusquedaTest#0" />
+                <element signature="method#testProfundidad#0;class#ArbolBinarioBusquedaTest#0" />
+                <element signature="method#testCuentaNodosDeNivel#0;class#ArbolBinarioBusquedaTest#0" />
+                <element signature="method#testEsCompleto#0;class#ArbolBinarioBusquedaTest#0" />
+                <element signature="method#testEsLleno#0;class#ArbolBinarioBusquedaTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMasa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Unidad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+              <folding>
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,9 +138,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compare</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,14 +154,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
         <option value="$PROJECT_DIR$/src/test/java/isi/died/tp/dominio/Insumo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Parte.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Unidad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantiadad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantidad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeLongitud.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMedida.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMasa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeSuperficie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeVolumen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="1055" />
@@ -96,6 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,14 +225,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-integrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-integrador" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
               <item name="estructuras" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,8 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArbolBinarioBusquedaTest.testEsCompleto">
-    <configuration name="ArbolBinarioBusquedaTest.testContiene" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArbolBinarioBusquedaTest">
+    <configuration name="ArbolBinarioBusquedaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-integrdor" />
       <extension name="coverage">
         <pattern>
@@ -186,8 +282,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="isi.died.tp.estructuras" />
       <option name="MAIN_CLASS_NAME" value="isi.died.tp.estructuras.ArbolBinarioBusquedaTest" />
-      <option name="METHOD_NAME" value="testContiene" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArbolBinarioBusquedaTest" />
         <item itemvalue="JUnit.ArbolBinarioBusquedaTest.testEsCompleto" />
         <item itemvalue="JUnit.ArbolBinarioBusquedaTest.testEsLleno" />
         <item itemvalue="JUnit.ArbolBinarioBusquedaTest.testCuentaNodosDeNivel" />
         <item itemvalue="JUnit.ArbolBinarioBusquedaTest.testProfundidad" />
-        <item itemvalue="JUnit.ArbolBinarioBusquedaTest.testContiene" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +373,7 @@
       <updated>1559083853699</updated>
       <workItem from="1559083860821" duration="6964000" />
       <workItem from="1559133449676" duration="10066000" />
+      <workItem from="1559828666587" duration="8390000" />
     </task>
     <task id="LOCAL-00001" summary="Corregido profundidad + Test">
       <created>1559141957604</created>
@@ -322,7 +418,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17030000" />
+    <option name="totallyTimeSpent" value="25420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,9 +430,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="20" width="768" height="844" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.53089887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +441,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -355,12 +452,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32902297" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32902297" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299866" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -374,54 +471,158 @@
     <MESSAGE value="Corregido profundidad + Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Corregido profundidad + Test" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantiadad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        <state relative-caret-position="356">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding>
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="219">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="163" column="25" lean-forward="true" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
+          <folding>
+            <element signature="method#preOrden#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#inOrden#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#posOrden#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#equals#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#contiene#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#profundidad#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#esCompleto#0;class#ArbolBinarioBusqueda#0" />
+            <element signature="method#esLleno#0;class#ArbolBinarioBusqueda#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="78" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="15" selection-end-column="78" />
+          <folding>
+            <element signature="method#CompareTo#0;class#Insumo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantidad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeLongitud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeSuperficie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeVolumen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMedida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Unidad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMasa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="method#testContiene#0;class#ArbolBinarioBusquedaTest#0" />
+            <element signature="method#testProfundidad#0;class#ArbolBinarioBusquedaTest#0" />
+            <element signature="method#testCuentaNodosDeNivel#0;class#ArbolBinarioBusquedaTest#0" />
+            <element signature="method#testEsCompleto#0;class#ArbolBinarioBusquedaTest#0" />
+            <element signature="method#testEsLleno#0;class#ArbolBinarioBusquedaTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

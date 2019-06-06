@@ -2,6 +2,7 @@ package isi.died.tp.estructuras;
 
 import static org.junit.Assert.*;
 
+import isi.died.tp.dominio.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,10 +18,30 @@ public class ArbolBinarioBusquedaTest {
 	private ArbolBinarioBusqueda <Integer> abb6;
 	private ArbolBinarioBusqueda <Integer> abb7;
 
+	private ArbolBinarioBusqueda <Liquido> arbolInsumos;
+
+	private Liquido liq1;
+	private Insumo insumo2;
+	private Insumo insumo3;
+	private Insumo insumo4;
+	private UnidadDeMasa unidad1;
+	private UnidadDeMasa unidad2;
+
+
 	@Before
 	public void preTest(){
-		abb1 = new ArbolBinarioBusqueda<>(20);
 
+		unidad1 = new UnidadDeMasa(Unidad.KILO);
+		unidad2 = new UnidadDeMasa(Unidad.GRAMO);
+
+		liq1= new Liquido(1,"caucho",200,10,100,false,unidad1);
+
+		arbolInsumos = new ArbolBinarioBusqueda<>();
+		arbolInsumos.agregar();
+		arbolInsumos.agregar();
+		arbolInsumos.agregar();
+
+		abb1 = new ArbolBinarioBusqueda<>(20);
 
 		abb2 = new ArbolBinarioBusqueda<>(20);
 		abb2.agregar(2);
@@ -48,6 +69,10 @@ public class ArbolBinarioBusquedaTest {
 		abb7.agregar(5);
 		abb7.agregar(23);
 		abb7.agregar(21);
+	}
+
+	@Test
+	public void TestRango() {
 	}
 
 	@Test
