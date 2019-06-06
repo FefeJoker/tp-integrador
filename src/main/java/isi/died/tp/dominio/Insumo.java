@@ -25,7 +25,7 @@ public abstract class Insumo implements Comparable<Insumo> {
 
    }
 
-   public int CompareTo(Insumo obj){
+   public int compareTo(Insumo obj){
 
       return (int) (this.stock - obj.stock);
 
