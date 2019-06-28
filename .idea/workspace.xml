@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2d4513-78ed-41c6-8f27-c7fb37d4952b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Grafo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/GrafoPlanta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Vertice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/TestRangoABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/TestRangoABB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,17 +39,130 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Grafo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5073">
+              <caret line="337" lean-forward="true" selection-start-line="337" selection-end-line="337" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1830#1842#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+                <element signature="e#2760#2772#0" expanded="true" />
+                <element signature="e#2826#2838#0" expanded="true" />
+                <element signature="e#3545#3557#0" expanded="true" />
+                <element signature="e#3611#3623#0" expanded="true" />
+                <element signature="e#4324#4344#0" expanded="true" />
+                <element signature="e#6399#6400#0" expanded="true" />
+                <element signature="e#6468#6469#0" expanded="true" />
+                <element signature="e#6596#6614#0" expanded="true" />
+                <element signature="e#6667#6679#0" expanded="true" />
+                <element signature="e#7049#7061#0" expanded="true" />
+                <element signature="e#7452#7473#0" expanded="true" />
+                <element signature="e#7732#7744#0" expanded="true" />
+                <element signature="e#7805#7825#0" expanded="true" />
+                <element signature="e#9134#9135#0" expanded="true" />
+                <element signature="e#9214#9215#0" expanded="true" />
+                <element signature="e#11475#11487#0" expanded="true" />
+                <element signature="e#11542#11554#0" expanded="true" />
+                <element signature="e#12180#12192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Pedido.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/GrafoPlanta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="544">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Vertice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Stock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -87,13 +199,20 @@
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeMasa.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeSuperficie.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeVolumen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java" />
         <option value="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/ArbolBinarioBusquedaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolVacio.java" />
         <option value="$PROJECT_DIR$/src/test/java/isi/died/tp/estructuras/TestRangoABB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/LineaPedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Pedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Stock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Vertice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Grafo.java" />
         <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/GrafoPlanta.java" />
       </list>
     </option>
   </component>
@@ -150,6 +269,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
               <item name="dominio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-integrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-integrador" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="estructuras" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tp-integrador" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +454,9 @@
       <updated>1559083853699</updated>
       <workItem from="1559083860821" duration="6964000" />
       <workItem from="1559133449676" duration="10066000" />
-      <workItem from="1559828666587" duration="11585000" />
+      <workItem from="1559828666587" duration="11912000" />
+      <workItem from="1559861907470" duration="164000" />
+      <workItem from="1561673761875" duration="8054000" />
     </task>
     <task id="LOCAL-00001" summary="Corregido profundidad + Test">
       <created>1559141957604</created>
@@ -342,13 +472,17 @@
       <option name="project" value="LOCAL" />
       <updated>1559843311929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Parte 2 CORRECTA! FUNCIONA COMO DEBE">
+      <created>1559846585010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559846585010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArbolBinarioBusquedaTest_testEsCompleto - 2019.05.29 at 11h 00m 30s.xml">
-      <configuration name="ArbolBinarioBusquedaTest.testEsCompleto" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArbolBinarioBusquedaTest_testEsCompleto - 2019.05.29 at 11h 19m 20s.xml">
       <configuration name="ArbolBinarioBusquedaTest.testEsCompleto" configurationId="JUnit" />
     </history-entry>
@@ -376,9 +510,12 @@
     <history-entry file="TestRangoABB_test - 2019.06.06 at 15h 38m 54s.xml">
       <configuration name="TestRangoABB.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRangoABB_test - 2019.06.06 at 15h 39m 59s.xml">
+      <configuration name="TestRangoABB.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28615000" />
+    <option name="totallyTimeSpent" value="37160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +530,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26706827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,16 +539,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32902297" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.22413793" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3275862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,37 +564,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Corregido profundidad + Test" />
     <MESSAGE value="Parte 2 + Fede" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parte 2 + Fede" />
+    <MESSAGE value="Parte 2 CORRECTA! FUNCIONA COMO DEBE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parte 2 CORRECTA! FUNCIONA COMO DEBE" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantiadad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantiadad.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantidad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,19 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arbol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -562,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/ArbolBinarioBusqueda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -593,17 +704,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/UnidadDeCantidad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/LineaPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Liquido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Insumo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Vertice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Arista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/Grafo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5073">
+          <caret line="337" lean-forward="true" selection-start-line="337" selection-end-line="337" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1830#1842#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2760#2772#0" expanded="true" />
+            <element signature="e#2826#2838#0" expanded="true" />
+            <element signature="e#3545#3557#0" expanded="true" />
+            <element signature="e#3611#3623#0" expanded="true" />
+            <element signature="e#4324#4344#0" expanded="true" />
+            <element signature="e#6399#6400#0" expanded="true" />
+            <element signature="e#6468#6469#0" expanded="true" />
+            <element signature="e#6596#6614#0" expanded="true" />
+            <element signature="e#6667#6679#0" expanded="true" />
+            <element signature="e#7049#7061#0" expanded="true" />
+            <element signature="e#7452#7473#0" expanded="true" />
+            <element signature="e#7732#7744#0" expanded="true" />
+            <element signature="e#7805#7825#0" expanded="true" />
+            <element signature="e#9134#9135#0" expanded="true" />
+            <element signature="e#9214#9215#0" expanded="true" />
+            <element signature="e#11475#11487#0" expanded="true" />
+            <element signature="e#11542#11554#0" expanded="true" />
+            <element signature="e#12180#12192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/dominio/Planta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/isi/died/tp/estructuras/GrafoPlanta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
