@@ -7,11 +7,9 @@ public class Liquido extends Insumo{
 
     public Liquido(){};
 
-    public Liquido(int idInsumo, String descrip, Double costoActual, Double stockActual,
-                   Double peso, Boolean refrigeracion, UnidadDeMedida unidad,Double densidad){
+    public Liquido(String descrip, Double costoActual, Double peso, Boolean refrigeracion, UnidadDeMedida unidad, Double densidad){
 
-        super(idInsumo,descrip,costoActual,stockActual,
-                peso,refrigeracion,unidad);
+        super(descrip, costoActual, peso, refrigeracion, unidad);
 
         this.densidad = densidad;
 
@@ -19,11 +17,11 @@ public class Liquido extends Insumo{
 
 
     public double calcularPeso(){
-        return stock*(unidadMedida.factor())*densidad;
+        return stock.getCantidad()*(unidadMedida.factor())*densidad;
     }
 
     public double calcularPeso(double vol){
-        return stock*(unidadMedida.factor())*vol*0.0001;
+        return stock.getCantidad()*(unidadMedida.factor())*vol*0.0001;
     }
 
 

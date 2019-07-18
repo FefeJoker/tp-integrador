@@ -1,42 +1,48 @@
 package isi.died.tp.dominio;
 
-public abstract class Insumo implements Comparable<Insumo> {
+import java.util.List;
 
-   protected int id;
-   protected String descripcion;
-   protected Double costo;
-   protected Double stock;
-   protected Double peso; //en Kg
-   protected Boolean esRefrigerado;
-   protected UnidadDeMedida unidadMedida;
+public class Insumo implements Comparable<Insumo> {
+	
+	private static List<Insumo> instances;
+	protected int id;
+	protected String descripcion;
+	protected Double costo;
+	protected Stock stock;
+	protected Double peso; //en Kg
+	protected Boolean esRefrigerado;
+	protected UnidadDeMedida unidadMedida;
 
-   public Insumo(){};
+	public static List<Insumo> getInstances(){
+		return instances;
+	}
+   
+	public Insumo(){
+		instances.add(this);
+	};
 
-   public Insumo(int idInsumo, String descrip, Double costoActual, Double stockActual,
-                 Double pesoEnKg, Boolean refrigeracion, UnidadDeMedida unidad){
+	public Insumo(String descrip, Double costoActual, Double pesoEnKg, Boolean refrigeracion, UnidadDeMedida unidad){
+		this.id = instances.size() + 1;
+		this.descripcion = descrip;
+		this.costo = costoActual;
+		this.peso = pesoEnKg;
+		this.esRefrigerado = refrigeracion;
+		this.unidadMedida = unidad;
+		instances.add(this);
+	}
 
-      this.id = idInsumo;
-      this.descripcion = descrip;
-      this.costo = costoActual;
-      this.stock = stockActual;
-      this.peso = pesoEnKg;
-      this.esRefrigerado = refrigeracion;
-      this.unidadMedida = unidad;
+	public int compareTo(Insumo obj){
 
-   }
-
-   public int compareTo(Insumo obj){
-
-      return (int) (this.stock - obj.stock);
+		return (int) (this.stock.getCantidad() - obj.stock.getCantidad());
 
       /*if(this.stock > obj.stock)    return 1;
       if(this.stock < obj.stock)    return -1;
       return 0;*/
-   }
+	}
 
-   public int getId() {
-      return id;
-   }
+	public int getId() {
+		return id;
+	}
 
    public void setId(int id) {
       this.id = id;
@@ -58,11 +64,11 @@ public abstract class Insumo implements Comparable<Insumo> {
       this.costo = costo;
    }
 
-   public Double getStock() {
+   public Stock getStock() {
       return stock;
    }
 
-   public void setStock(Double stock) {
+   public void setStock(Stock stock) {
       this.stock = stock;
    }
 

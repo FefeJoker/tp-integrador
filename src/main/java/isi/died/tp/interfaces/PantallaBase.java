@@ -6,21 +6,28 @@ import javax.swing.*;
 
 public class PantallaBase implements ActionListener{
 	JPanel panel;
-	PantallaMenuPrueba PantallaMenu;
-	PantallaInsumoPrueba PantallaInsumos;
+	PantallaMenu pantallaMenu;
+	PantallaInsumo pantallaInsumos;
+	PantallaPlantas pantallaPlantas;
+	PantallaStock pantallaStock;
 	
 	public void agregarComponentePane(Container pane) {
 		panel = new JPanel(new CardLayout());
 		
-		PantallaMenuPrueba PantallaMenu = PantallaMenuPrueba.crearPantalla(panel);
-    	PantallaInsumoPrueba PantallaInsumos = PantallaInsumoPrueba.crearPantalla(panel);
+		PantallaMenu.crearPantalla(panel);
+    	PantallaInsumo.crearPantalla(panel);
+    	PantallaPlantas.crearPantalla(panel);
+    	PantallaStock.crearPantalla(panel);
+    	PantallaCaminos.crearPantalla(panel);
+    	PantallaCamiones.crearPantalla(panel);
+    	PantallaInformacion.crearPantalla(panel);
 
     	pane.add(panel, BorderLayout.CENTER);
     }
 	private static void crearYmostrarUI() {
         JFrame frame = new JFrame("Trabajo Practico DIED");
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-         
+        
         PantallaBase demo = new PantallaBase();
         demo.agregarComponentePane(frame.getContentPane());
         

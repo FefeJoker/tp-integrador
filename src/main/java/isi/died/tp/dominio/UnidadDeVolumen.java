@@ -8,10 +8,11 @@ public class UnidadDeVolumen extends UnidadDeMedida{
 
     public double factor(){
         switch(this.unidad){
-            case M3: return 1;
-            case CM3: return 0.000001;
+            case M3: 	return 1;
+            case CM3:	return 0.000001;
             case LITRO: return 0.001;
+            default:	return 0;
         }
-        return 0;
+        
     }
 }
